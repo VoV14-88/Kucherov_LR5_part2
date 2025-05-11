@@ -2,6 +2,7 @@
 #include "Kucherov_MathTask.h"
 
 int main() {
+    setlocale(LC_ALL,"rus");
     int A = EnterNumber("Введите число A: ");
     int B = EnterNumber("Введите число B: ");
 
